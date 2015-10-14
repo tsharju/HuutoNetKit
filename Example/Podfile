@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'HuutoNetKit_Example', :exclusive => true do
+  pod "HuutoNetKit", :path => "../"
+end
+
+target 'HuutoNetKit_Tests', :exclusive => true do
+  pod "HuutoNetKit", :path => "../"
+
+  pod 'Quick', '~> 0.3.1'
+  pod 'Nimble'
+end
