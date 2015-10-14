@@ -1,0 +1,6 @@
+framework module HuutoNetKit {
+  umbrella header "HuutoNetKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

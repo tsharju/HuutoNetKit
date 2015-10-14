@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (3.0.0)
+  - HuutoNetKit (0.1.0):
+    - Alamofire (~> 3.0)
+  - Nimble (2.0.0)
+  - Quick (0.3.1)
+
+DEPENDENCIES:
+  - HuutoNetKit (from `../`)
+  - Nimble
+  - Quick (~> 0.3.1)
+
+EXTERNAL SOURCES:
+  HuutoNetKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: b61782387f81bcc538a0284cf2bb5d7995cd0a80
+  HuutoNetKit: 716be88a8ed48fd224580fd8e6f57fe50b188a7e
+  Nimble: 472e75466819eb8c06299233e87c694a9b51328a
+  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
+
+COCOAPODS: 0.39.0

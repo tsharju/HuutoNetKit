@@ -1,0 +1,30 @@
+{
+  "name": "HuutoNetKit",
+  "version": "0.1.0",
+  "summary": "A Huuto.net API library.",
+  "description": "This is an implementation of the HTTP API for the Huuto.net service.",
+  "homepage": "https://github.com/tsharju/HuutoNetKit",
+  "license": "MIT",
+  "authors": {
+    "Teemu Harju": "teemu.harju@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tsharju/HuutoNetKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HuutoNetKit": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Alamofire": [
+      "~> 3.0"
+    ]
+  }
+}
